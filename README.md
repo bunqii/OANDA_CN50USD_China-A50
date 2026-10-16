@@ -1,0 +1,1 @@
+# OANDA_CN50USD_China-A50
