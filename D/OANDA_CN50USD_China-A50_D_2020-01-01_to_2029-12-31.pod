@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "CN50_USD",
+  "granularity": "D",
+  "chunk_start": "2020-01-01",
+  "chunk_end": "2029-12-31",
+  "parquet_file": "OANDA_CN50USD_China-A50_D_2020-01-01_to_2029-12-31.parquet",
+  "data_file": "OANDA_CN50USD_China-A50_D_2020-01-01_to_2029-12-31.parquet",
+  "row_count": 1761,
+  "first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 14478.4,
+    "high": 14630.9,
+    "low": 14441.0,
+    "close": 14628.4,
+    "volume": 29722
+  },
+  "last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 13374.9,
+    "high": 13455.8,
+    "low": 13216.3,
+    "close": 13451.8,
+    "volume": 132114
+  },
+  "csv_file": "OANDA_CN50USD_China-A50_D_2020-01-01_to_2029-12-31.parquet",
+  "csv_row_count": 1761,
+  "csv_first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 14478.4,
+    "high": 14630.9,
+    "low": 14441.0,
+    "close": 14628.4,
+    "volume": 29722
+  },
+  "csv_last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 13374.9,
+    "high": 13455.8,
+    "low": 13216.3,
+    "close": 13451.8,
+    "volume": 132114
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-16T00:42:58.000000000Z",
+  "generated_at": "2026-10-16T00:42:58.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2011-08-29T21:00:00Z",
+        "to": "2025-05-07T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2025-05-07T21:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
